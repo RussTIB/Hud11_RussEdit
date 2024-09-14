@@ -1,0 +1,114 @@
+//===========================================================================================================================
+
+event FlagOutline
+{
+}
+
+//===========================================================================================================================
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup						ypos	"-50"									Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos	"32"									Spline 	0.001	0.1
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup						ypos	"32"									Linear 	0.0 	0.001
+	Animate HudTournamentSetup						ypos	"-50"									Spline 	0.001 	0.6
+}
+
+//===========================================================================================================================
+
+event HasNotificationsBlink
+{
+}
+
+event HasNotificationsBlinkStop
+{
+}
+
+//===========================================================================================================================
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue 							FgColor		"255 255 100 255"					Linear 	0.0 	0.0
+}
+
+event ActiveTimerDim
+{
+	Animate TimePanelValue 							FgColor		"White"								Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================================================================================================
+
+event RDPositiveScorePulse
+{
+}
+
+event RDNegativeScorePulse
+{
+}
+
+//===========================================================================================================================
+
+event TeamStatus_PlayerDead
+{
+}
+
+event TeamStatus_PlayerAlive
+{
+}
+
+//===========================================================================================================================
+
+event HudSnapShotReminderIn
+{
+    RunEvent HudHealthDyingPulseStop 				10.0
+    RunEvent HudHealthBonusPulseStop 				10.0
+    RunEvent HudLowAmmoPulseStop 					10.0
+    RunEvent HudMedicChargedStop 					10.0
+}
+
+//===========================================================================================================================
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusClassImage			Alpha		"255"			Linear 0.0 0.0
+	Animate Eye                             Alpha       "255"           Linear 0.0 0.0
+	Animate Eye                             Alpha       "0"             Linear 2.0 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
+	Animate Eye                             Alpha       "0"             Linear 0.0 0.0
+}
+//===========================================================================================================================
