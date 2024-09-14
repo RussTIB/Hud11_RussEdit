@@ -15,21 +15,21 @@
 		"enabled"									"1"
 	}
 
-	"PlayerStatusClassImage"
-	{
-		"ControlName"	"CTFClassImage"
-		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"cs-0.5"	[$WIN32]
-		"ypos"			"r148"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"8"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
-		"alpha" "0"
-	}
+       "PlayerStatusClassImage" 
+       {
+                "ControlName"    "CTFClassImage"
+                "fieldName"  "PlayerStatusClassImage"
+                "xpos"        "cs-0.5"    [$WIN32]
+                "ypos"    "r148"    [$WIN32]
+                "zpos"    "2"
+                "wide"    "56"
+                "tall"    "12"
+                "visible"    "1"
+                "enabled"    "1"
+                "image"    "../hud/class_scoutred"
+                "scaleImage"    "0"    
+                "alpha"       "0"
+        }
 
 	"PlayerStatusSpyOutlineImage"
 	{
