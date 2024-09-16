@@ -2,22 +2,16 @@
 // M0REHUD LAYOUT
 //=========================================================
 
-#base "../scripts/layouts/hudlayout_m0re.res"
+#base "layouts/hudlayout_m0re.res"
 
 //=========================================================
 // HUD CROSSHAIRS
 //=========================================================
 
-#base "../scripts/crosshairs/crosshairs.res"
-
-//=========================================================
-// TRANSPARENT VIEWMODELS
-//=========================================================
-
-#base "../scripts/transparent viewmodels.res"
+#base "crosshairs/crosshairs.res"
 
 //=========================================================
 // DEFAULT LAYOUT
 //=========================================================
 
-#base "../scripts/layouts/hudlayout_default.res"
+#base "layouts/hudlayout_default.res"

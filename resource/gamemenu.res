@@ -1,19 +1,18 @@
-"GameMenu"
+"Resource/GameMenu.res"
 {
 	//====================================================================================================================================================
 	// MAIN MENU BUTTONS
 	//====================================================================================================================================================
-
 	"Version"
 	{
-		"label" 									"MinimalHud #65306"
-		"command" 									"engine showconsole"
+		"label"										"MinimalHud #65306"
+		"command"									"engine con_enable 1; toggleconsole; echo hud11;"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
 	{
-		"label" 									"Servers"
-		"command" 									"OpenServerBrowser"
+		"label"										"Servers"
+		"command"									"OpenServerBrowser"
 	}
 	"Create"
 	{
@@ -45,27 +44,31 @@
 		"label"										"DemoUI"
 		"command"									"engine demoui"
 	}
+	"Friends"
+	{
+		"label"										"Friends"
+		"command"									"engine cl_mainmenu_safemode 1"
+	}
 	"Contracker"
 	{
 		"label"										"Contracker"
 		"command"									"questlog"
 	}
-	"Streams"
+	"Workshop"
 	{
-		"label"										"Streams"
-		"command"									"watch_stream"
+		"label"										"Workshop"
+		"command"									"engine OpenSteamWorkshopDialog"
 	}
 	"Quit"
 	{
-		"label" 									"Quit"
-		"command" 									"engine replay_confirmquit"
+		"label"										"Quit"
+		"command"									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
 	}
 
 	//====================================================================================================================================================
 	// IN GAME BUTTONS
 	//====================================================================================================================================================
-
 	"Scoreboard"
 	{
 		"label"										"Scoreboard"
@@ -74,29 +77,29 @@
 	}
 	"Disconnect"
 	{
-		"label" 									"Disconnect"
-		"command" 									"engine disconnect"
-		"OnlyInGame" 								"1"
+		"label"										"Disconnect"
+		"command"									"engine disconnect"
+		"OnlyInGame"								"1"
 	}
 	"QuitGame"
 	{
-		"label" 									"Quit"
-		"command" 									"engine replay_confirmquit"
-		"OnlyInGame" 								"1"
+		"label"										"Quit"
+		"command"									"engine replay_confirmquit"
+		"OnlyInGame"								"1"
 	}
 	"Vote"
 	{
 		"label"										"M"
 		"command"									"callvote"
 		"tooltip"									"Call a Vote"
-		"OnlyInGame" 								"1"
+		"OnlyInGame"								"1"
 	}
 	"Mute"
 	{
 		"label"										"L"
 		"command"									"OpenMutePlayerDialog"
 		"tooltip"									"Mute a Player"
-		"OnlyInGame" 								"1"
+		"OnlyInGame"								"1"
 	}
 	"Report"
 	{
@@ -116,7 +119,6 @@
 	//====================================================================================================================================================
 	// TOOLS BAR
 	//====================================================================================================================================================
-
 	"Fix Invisible Players"
 	{
 		"label"										"D"
@@ -169,7 +171,7 @@
 	"Toggle Chat"
 	{
 		"label"										"A"
-		"command"									"engine toggle hud_saytext_time 0 6"
+		"command"									"engine toggle hud_saytext_time 0 12"
 		"tooltip"									"Enable/Disable Chat"
 		"OnlyInGame"								"1"
 	}

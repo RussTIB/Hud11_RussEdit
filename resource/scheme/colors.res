@@ -23,14 +23,14 @@
 		"Ammo No Clip Low"									"255 0 0 255"
 
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge Full"									"255 0 127 255"
+		"Ubercharge Full"									"200 255 200 255"
 		
 		"Extra Shadow"										"0 0 0 255"
 
 		"Heal Numbers"										"0 255 0 255"
 		"Last Damage Done"									"255 255 255 255"
 
-		"Menu Labels"										"255 0 127 255"
+		"Menu Labels"										"200 255 200 255"
 		"Class Selection"									"0 215 0 255"
 		
 		"m0reBlue"											"0 120 201 255"

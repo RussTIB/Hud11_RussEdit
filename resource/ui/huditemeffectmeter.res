@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c-82"
 		"xpos_minmode"	"c-82"
-		"ypos"			"345"//"385"
+		"ypos"			"345" //'385'
 		"wide"			"150"
 		"tall"			"8"
 		"MeterFG"		"TanLight"
@@ -18,7 +18,7 @@
 	{
 		"ControlName"        "EditablePanel"
         "fieldName"			 "ItemEffectMeterBG"
-        "xpos"               "60"//"cs-0.5"
+        "xpos"               "60" //'cs-0.5'
         "ypos"               "1"
         "zpos"               "0"
         "wide_minmode"       "44"
@@ -44,7 +44,7 @@
 		"tall"					"8"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"

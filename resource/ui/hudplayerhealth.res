@@ -50,7 +50,7 @@
 		"tall"			         				 	"0"
 		"visible"		         				 	"0"
 		"enabled"		         				 	"1"
-		"image"			         				 	"../hud/health_over_bg"
+		"image"			         				 	"replay/thumbnails/details/overheal"
 		"scaleImage"	         				 	"1"
 	}
 

@@ -44,6 +44,7 @@ event ActiveTimerDim
 
 event CompetitiveGame_LowerChatWindow
 {
+	RunEvent HudSpyDisguiseHide 0.1
 }
 
 event CompetitiveGame_RestoreChatWindow

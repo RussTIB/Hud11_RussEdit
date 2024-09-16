@@ -1,0 +1,20 @@
+// load the base configuration
+//exec default.cfg
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level. Remove this if you're using background images instead of maps
+startupmenu
+
+echo thx for using hud11 edit, type "minmode" to toggle minmode and playermodel
+
+alias "minmode" "toggle cl_hud_minmode; toggle cl_hud_playerclass_use_playermodel"
