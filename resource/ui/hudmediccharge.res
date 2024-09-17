@@ -146,7 +146,7 @@
 		"labelText"									"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"								"center"
 		"fgcolor"									"Ubercharge"
-		"font"										"m0refont18Shadow"
+		"font"										"HPAMMO"
 
 		"pin_to_sibling"							"ChargeLabel"
 	}
@@ -229,7 +229,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
 		"xpos"										"cs-0.5"
-		"ypos"										"c58"
+		"ypos"										"c52"
 		"wide"										"0"
 		"tall"										"80"
 		"visible"									"1"

@@ -521,22 +521,54 @@
 			}
 		}
 		
-		"m0reSymbols"
+		"Symbols18"
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V3"
+				"name"										"m0rehud Icons V5"
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
 			}
 		}
 		
+		"Verdana7"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"7"
+				"weight"									"0"
+				"additive"									"1"
+				"antialias" 								"1"
+			}
+		}
+		"Verdana10"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"Verdana10L"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias" 								"1"
+				"outline"									"1"
+			}
+		}
 		"Coolvetica11"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"Verdana"
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -546,7 +578,7 @@
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"Verdana"
 				"tall"										"13"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -556,10 +588,11 @@
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"Verdana"
 				"tall"										"15"
 				"additive"									"0"
 				"antialias" 								"1"
+				"dropshadow"								"1"
 			}
 		}
 		
@@ -687,6 +720,17 @@
 				"antialias" 								"1"
 			}
 		}
+		"LoadoutMenu"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"20"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
 	}
 	
 	"CustomFontFiles"
@@ -696,31 +740,23 @@
 			"font" 		"resource/scheme/fonts/surface_medium.otf"
 			"name" 		"Surface-Medium"
 		}
-		
 		"9" 
 		{
 			"font" 		"resource/scheme/fonts/surface_numbers.otf"
 			"name" 		"Surface-Numbers"
-		}
-		
+		}	
 		"10" 
-		{
-			"font" 		"resource/scheme/fonts/coolvetica.ttf"
-			"name" 		"Coolvetica"
-		}
-		
-		"11" 
 		{
 			"font" 		"resource/scheme/fonts/blocks.ttf"
 			"name" 		"Blocks"
 		}
 		
-		"12" 
+		"11" 
 		{
 			"font" 		"resource/scheme/fonts/m0rehud icons.ttf"
-			"name" 		"m0rehud Icons V3"
+			"name" 		"m0rehud Icons V5"
 		}
-		"13"
+		"12"
 		{
 			"font"	"resource/scheme/fonts/TF2 Icons.ttf"
 			"name"	"TF2 Icons"

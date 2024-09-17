@@ -70,7 +70,7 @@
 
 		"paintbackground"							"1"
 		"defaultBgColor_override"					"FooterBGBlack"
-		"armedBgColor_override"						"Main"
+		"armedBgColor_override"						"Menu Labels"
 
 		"armedFgColor_override"						"White"
 		"defaultFgColor_override"					"White"
