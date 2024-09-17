@@ -2,4 +2,6 @@
 
 Enjoy!
 
+Credits to HyNo for Disguised Icons & Techno for cleanup
+
 note: disguises don't work properly unless `cl_hud_playerclass_use_playermodel` is set to "0", if that bothers you please turn on minmode
